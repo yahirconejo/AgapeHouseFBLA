@@ -258,6 +258,8 @@ body::-webkit-scrollbar{
 @media (max-height: 500px) {
     #sect1Heading h1{
         background-color: rgb(74, 112, 175);
+	border-top: 2px solid white;
+	border-bottom: 2px solid white;
     }
 }
 
