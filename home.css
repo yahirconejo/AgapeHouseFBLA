@@ -2135,6 +2135,7 @@ body::-webkit-scrollbar{
     background-color: rgb(89, 142, 240);
     margin-left: 25px;
     border-radius: 2px;
+    pointer-events:none;
 }
 
 .plusSignSect5{
@@ -2146,6 +2147,7 @@ body::-webkit-scrollbar{
     display: inline-block;
     flex-shrink: 0;
     border-radius: 1px;
+    pointer-events:none;
 }
 
 .plusSignSect5::after{
@@ -2157,6 +2159,7 @@ body::-webkit-scrollbar{
     background-color: rgb(0, 115, 255);
     rotate: 90deg;
     flex-shrink: 0;
+    pointer-events:none;
 }
 
 .smallScreenSect5TopEventsInfoText{
