@@ -1,0 +1,287 @@
+body{
+    background-color: rgb(28, 28, 28);
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+/* navish */
+
+#navish{
+    background-color: rgb(242, 242, 242);
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navHeading{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+#userName{
+    margin-right: 20px;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#idNumCont{
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    margin-right: 50px;
+}
+
+/* section 1 */
+
+#section1{
+    position: relative;
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(217, 217, 217);
+    display: flex;
+    align-items: center;
+}
+
+#section1 h1{
+    margin-left: clamp(0px,5vw,40px);
+    margin-right: 10px;
+}
+
+#sect1Table1{
+    position: relative;
+    left: 6%;
+    height: 40%;
+    margin: 0 10px;
+    aspect-ratio: 1/1;
+}
+
+#sect1Table1 .table{
+    background-color: rgb(33, 166, 18);
+}
+
+
+
+/* table */
+#section2{
+    position: relative;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#tableCont{
+    position: relative;
+    width: calc(100vw - 60px);
+    max-width: 500px;
+    margin: 90px 30px 80px 30px;
+    aspect-ratio: 1/1;
+    background-color: rgb(27, 26, 26);
+    box-shadow: 0px 0px 10px black;
+    container-type: size;
+    border-radius: 10px;
+}
+
+#frontStage{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 11%;
+    border-radius: 0 0 10cqw 10cqw;
+    background-color: rgb(201, 156, 100);
+    padding-top: 6%;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+#tableThing1{
+    position: absolute;
+    top: 20%;
+    left: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing2{
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing3{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing4{
+    position: absolute;
+    top: 70%;
+    left: 26%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing5{
+    position: absolute;
+    top: 50%;
+    left: 26%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing6{
+    position: absolute;
+    top: 30%;
+    left: 26%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing7{
+    position: absolute;
+    top: 40%;
+    left: 46%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing8{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing9{
+    position: absolute;
+    top: 70%;
+    left: 66%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing10{
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing11{
+    position: absolute;
+    top: 30%;
+    left: 66%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing12{
+    position: absolute;
+    top: 20%;
+    left: 84%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing13{
+    position: absolute;
+    top: 40%;
+    left: 84%;
+    width: 10%;
+    height: 10%;
+}
+
+#tableThing14{
+    position: absolute;
+    top: 60%;
+    left: 84%;
+    width: 10%;
+    height: 10%;
+}
+
+
+
+.table{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: rgb(226, 226, 226);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+}
+
+.chairCont{
+    position: absolute;
+    left: 50%;
+    width: 80%;
+    height: 30%;
+    container-type: size;
+    transform-origin: left center;
+}
+
+.chair{
+    position: absolute;
+    width: 29%;
+    height: 100%;
+    border-radius: 20% 0 0 20%;
+    border-right: 5cqw solid rgb(174, 122, 25);
+    right: 0;
+    background-color: rgb(98, 84, 82);
+}
+
+/* doors */
+
+.door{
+    position: absolute;
+    bottom: 0;
+    width: 7%;
+    height: 7%;
+    border-radius: 10% 90% 0 0;
+    background-color: gray;
+}
+
+.door::after{
+    content: "";
+    position: absolute;
+    transform: translateX(100%);
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 90% 10% 0 0;
+    background-color: gray;
+}
+
+/* footer */
+
+#footer{
+    position: relative;
+    width: 100vw;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+}
