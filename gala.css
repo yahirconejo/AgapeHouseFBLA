@@ -2246,6 +2246,24 @@ input:focus{
     color: rgb(85, 85, 85);
 }
 
+#footerSources{
+    position: relative;
+    margin-top: 2px;
+    margin-left: 19px;
+    pointer-events: none;
+}
+
+#footerSources a{
+    position: relative;
+    color: black;
+    font-weight: 600;
+    pointer-events: auto;
+}
+
+#footerSources a:hover{
+    color: rgb(85, 85, 85);
+}
+
 #footerEmailSignUp{
     position: relative;
     margin-top: 30px;
